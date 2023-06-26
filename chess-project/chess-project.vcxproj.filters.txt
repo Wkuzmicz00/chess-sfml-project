@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ChessBoard">
+      <UniqueIdentifier>{6f62d87e-08d7-4fb5-8a64-93d9bebf633d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChessBoard\Pieces">
+      <UniqueIdentifier>{658d428e-f9b3-45d7-bdc3-60579a3e1395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChessBoard\Pieces\Pawn">
+      <UniqueIdentifier>{0bef0a22-60ba-4d1e-8343-61923ace170c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChessBoard\Pieces\Rook">
+      <UniqueIdentifier>{891116fa-14c4-4e0c-8e49-fb214b515d48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChessBoard\Pieces\Knigth">
+      <UniqueIdentifier>{746df755-ba52-4c5b-9593-ad874a80e62c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChessBoard\Pieces\Bishop">
+      <UniqueIdentifier>{b9df35ba-92d9-4b01-ba12-7b311834b5c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChessBoard\Pieces\Queen">
+      <UniqueIdentifier>{efbbe035-46a8-4f94-92ac-b07e0f228592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChessBoard\Pieces\King">
+      <UniqueIdentifier>{c47875f4-055d-44b3-9415-963e9f8400ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{16896a45-f58d-457c-8022-9b67a63ea16e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\GameState">
+      <UniqueIdentifier>{3b15ebe9-ab79-43da-b2e9-c00424e374e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\MainMenuState">
+      <UniqueIdentifier>{0de5c32f-8635-41db-a918-c34aa9aaffb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChessBoard\ChessAI">
+      <UniqueIdentifier>{c7d7bc46-2b91-4b9f-90c8-74840dcb4f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChessBoard\Board">
+      <UniqueIdentifier>{8e1f612e-c2bb-43cf-b55c-0ac8ba819e4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChessBoard\Board\Square">
+      <UniqueIdentifier>{2431d5c2-38a3-4b78-8628-9629ac345d65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>States\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>States\MainMenuState</Filter>
+    </ClCompile>
+    <ClCompile Include="Pawn.cpp">
+      <Filter>ChessBoard\Pieces\Pawn</Filter>
+    </ClCompile>
+    <ClCompile Include="Rook.cpp">
+      <Filter>ChessBoard\Pieces\Rook</Filter>
+    </ClCompile>
+    <ClCompile Include="Knight.cpp">
+      <Filter>ChessBoard\Pieces\Knigth</Filter>
+    </ClCompile>
+    <ClCompile Include="Bishop.cpp">
+      <Filter>ChessBoard\Pieces\Bishop</Filter>
+    </ClCompile>
+    <ClCompile Include="Queen.cpp">
+      <Filter>ChessBoard\Pieces\Queen</Filter>
+    </ClCompile>
+    <ClCompile Include="King.cpp">
+      <Filter>ChessBoard\Pieces\King</Filter>
+    </ClCompile>
+    <ClCompile Include="Piece.cpp">
+      <Filter>ChessBoard\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessAI.cpp">
+      <Filter>ChessBoard\ChessAI</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessBoardPromotion.cpp">
+      <Filter>ChessBoard\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessBoard.cpp">
+      <Filter>ChessBoard\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessBoardEvents.cpp">
+      <Filter>ChessBoard\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>ChessBoard\Board\Square</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessBoardEndgame.cpp">
+      <Filter>ChessBoard\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessBoardMoves.cpp">
+      <Filter>ChessBoard\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessBoardPieces.cpp">
+      <Filter>ChessBoard\Board</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>States\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>States\MainMenuState</Filter>
+    </ClInclude>
+    <ClInclude Include="Pawn.h">
+      <Filter>ChessBoard\Pieces\Pawn</Filter>
+    </ClInclude>
+    <ClInclude Include="Rook.h">
+      <Filter>ChessBoard\Pieces\Rook</Filter>
+    </ClInclude>
+    <ClInclude Include="Piece.h">
+      <Filter>ChessBoard\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="Knight.h">
+      <Filter>ChessBoard\Pieces\Knigth</Filter>
+    </ClInclude>
+    <ClInclude Include="Bishop.h">
+      <Filter>ChessBoard\Pieces\Bishop</Filter>
+    </ClInclude>
+    <ClInclude Include="Queen.h">
+      <Filter>ChessBoard\Pieces\Queen</Filter>
+    </ClInclude>
+    <ClInclude Include="King.h">
+      <Filter>ChessBoard\Pieces\King</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessAI.h">
+      <Filter>ChessBoard\ChessAI</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessBoard.h">
+      <Filter>ChessBoard\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>ChessBoard\Board\Square</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
