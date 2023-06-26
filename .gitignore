@@ -1,32 +1,18 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+chess-project/Debug
+chess-project/Release
+chess-project/x64
+chess-project/sfml-audio-2.dll
+chess-project/sfml-audio-d-2.dll
+chess-project/sfml-graphics-2.dll
+chess-project/sfml-graphics-d-2.dll
+chess-project/sfml-system-2.dll
+chess-project/sfml-system-d-2.dll
+chess-project/sfml-window-2.dll
+chess-project/sfml-window-d-2.dll
+chess-project/sfml-network-2.dll
+chess-project/sfml-network-d-2.dll
+chess-project/openal32.dll
+/SFML
+x64
+Debug
+.vs
